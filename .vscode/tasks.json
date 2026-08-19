@@ -1,0 +1,48 @@
+{
+// Phien ban dinh dang cua tep nay, do VS Code quy dinh. Giu nguyen.
+// Dau // bat dau mot dong chu thich: co the go hoac bo, VS Code
+// deu bo qua. JSON tieu chuan khong cho phep chu thich, nhung ba
+// tep cau hinh cua VS Code thi cho.
+"version": "2.0.0",
+"tasks": [
+{
+// ---- Cong viec 1: ban de go loi ----
+// Ten hien ra khi VS Code hoi chon cong viec nao.
+"label": "Bien dich C++",
+// "shell" nghia la chay lenh nay nhu go o cua so dong lenh.
+"type": "shell",
+// Ten chuong trinh se chay. Tren macOS doi thanh "g++-16".
+"command": "g++",
+// Cac tham so, moi tham so mot dong.
+"args": [
+"-std=c++17", // dung chuan C++17
+"-g", // giu thong tin dong lenh de go loi
+"-Wall", // canh bao moi cho dang ngo
+"-DLOCAL", // bat khoi #ifdef LOCAL (xem muc 5.5)
+"-o", // tep ket qua se ten la...
+"${fileDirname}/${fileBasenameNoExtension}.exe",
+"${file}" // ...bien dich tu tep dang mo
+],
+// Danh dau day la cong viec bien dich mac dinh,
+// nho do Ctrl+Shift+B goi thang no khong hoi lai.
+"group": { "kind": "build", "isDefault": true },
+// Doc thong bao loi cua g++ va gach chan dung dong bi loi.
+"problemMatcher": ["$gcc"]
+},
+{
+// ---- Cong viec 2: ban giong may cham, chay truoc khi nop ----
+"label": "Bien dich kieu cong luyen tap",
+"type": "shell",
+"command": "g++",
+"args": [
+"-std=c++17",
+"-O2", // toi uu toc do, dung muc may cham dung
+"-Wall",
+"-o",
+"${fileDirname}/${fileBasenameNoExtension}",
+"${file}"
+],
+"problemMatcher": ["$gcc"]
+}
+]
+}
