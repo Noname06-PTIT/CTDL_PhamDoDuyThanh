@@ -1,0 +1,66 @@
+=== CHAY KIEM THU: python python/test_co_ban.py ===
+test_chen_sau (__main__.TestDanhSach.test_chen_sau) ... ok
+test_dao_giu_nguyen_doi_tuong_nut (__main__.TestDanhSach.test_dao_giu_nguyen_doi_tuong_nut) ... ok
+test_dao_rong_mot_nut (__main__.TestDanhSach.test_dao_rong_mot_nut) ... ok
+test_ngau_nhien_co_seed (__main__.TestDanhSach.test_ngau_nhien_co_seed) ... ok
+test_phat_hien_chu_trinh (__main__.TestDanhSach.test_phat_hien_chu_trinh) ... ok
+test_phat_hien_n_sai (__main__.TestDanhSach.test_phat_hien_n_sai) ... ok
+test_rong (__main__.TestDanhSach.test_rong) ... ok
+test_them_dau_cuoi (__main__.TestDanhSach.test_them_dau_cuoi) ... ok
+test_xoa_chi_mot_gia_tri_trung (__main__.TestDanhSach.test_xoa_chi_mot_gia_tri_trung) ... ok
+test_xoa_dau_cuoi_giua (__main__.TestDanhSach.test_xoa_dau_cuoi_giua) ... ok
+test_day_khong_ghi_de (__main__.TestHangDoi.test_day_khong_ghi_de) ... ok
+test_ngau_nhien_co_seed (__main__.TestHangDoi.test_ngau_nhien_co_seed) ... ok
+test_quay_vong_va_o_cu (__main__.TestHangDoi.test_quay_vong_va_o_cu) ... ok
+test_rong (__main__.TestHangDoi.test_rong) ... ok
+test_suc_chua_mot (__main__.TestHangDoi.test_suc_chua_mot) ... ok
+test_suc_chua_sai (__main__.TestHangDoi.test_suc_chua_sai) ... ok
+test_lifo (__main__.TestNganXep.test_lifo) ... ok
+test_rong (__main__.TestNganXep.test_rong) ... ok
+test_xem_dinh_khong_xoa (__main__.TestNganXep.test_xem_dinh_khong_xoa) ... ok
+test_kiem_tra_gia_tri (__main__.TestNgoacVaDauVao.test_kiem_tra_gia_tri) ... ok
+test_ngoac_dung (__main__.TestNgoacVaDauVao.test_ngoac_dung) ... ok
+test_ngoac_sai (__main__.TestNgoacVaDauVao.test_ngoac_sai) ... ok
+test_service_cau_lenh (__main__.TestNgoacVaDauVao.test_service_cau_lenh) ... ok
+test_service_rollback_input (__main__.TestNgoacVaDauVao.test_service_rollback_input) ... ok
+test_vi_tri_unicode (__main__.TestNgoacVaDauVao.test_vi_tri_unicode) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.028s
+
+OK
+
+
+=== CHAY KIEM THU: python python/test_bai_tap.py ===
+test_danh_sach_ngau_nhien_co_seed (__main__.TestBaiTap.test_danh_sach_ngau_nhien_co_seed) ... ok
+test_dem_khong_co (__main__.TestBaiTap.test_dem_khong_co) ... ok
+test_dem_rong (__main__.TestBaiTap.test_dem_rong) ... ok
+test_dem_trung_khong_doi (__main__.TestBaiTap.test_dem_trung_khong_doi) ... ok
+test_lay_nhieu_het (__main__.TestBaiTap.test_lay_nhieu_het) ... ok
+test_lay_nhieu_k_sai_khong_doi (__main__.TestBaiTap.test_lay_nhieu_k_sai_khong_doi) ... ok
+test_lay_nhieu_khong (__main__.TestBaiTap.test_lay_nhieu_khong) ... ok
+test_lay_nhieu_rong (__main__.TestBaiTap.test_lay_nhieu_rong) ... ok
+test_lay_nhieu_thu_tu (__main__.TestBaiTap.test_lay_nhieu_thu_tu) ... ok
+test_xem_k_khong_va_het (__main__.TestBaiTap.test_xem_k_khong_va_het) ... ok
+test_xem_k_quay_vong (__main__.TestBaiTap.test_xem_k_quay_vong) ... ok
+test_xem_k_rong (__main__.TestBaiTap.test_xem_k_rong) ... ok
+test_xem_k_sai_khong_doi (__main__.TestBaiTap.test_xem_k_sai_khong_doi) ... ok
+test_xoa_het (__main__.TestBaiTap.test_xoa_het) ... ok
+test_xoa_khong_co (__main__.TestBaiTap.test_xoa_khong_co) ... ok
+test_xoa_lien_tiep_va_giu_nut_con_lai (__main__.TestBaiTap.test_xoa_lien_tiep_va_giu_nut_con_lai) ... ok
+test_xoa_rong (__main__.TestBaiTap.test_xoa_rong) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.003s
+
+OK
+
+
+=== CHAY KIEM THU: python python/test_them.py ===
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+
+

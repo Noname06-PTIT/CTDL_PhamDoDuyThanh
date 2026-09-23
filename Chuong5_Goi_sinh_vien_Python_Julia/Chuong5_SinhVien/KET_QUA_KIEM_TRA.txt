@@ -1,0 +1,45 @@
+KIỂM CHỨNG BẢN PHÂN PHỐI
+Python thực thi: 3.13.5, Linux.
+Đáp án Python: 42 tests, OK.
+Mẫu sinh viên Python: 25 tests cơ bản, OK.
+Bốn hàm bài tập của gói sinh viên cố ý báo chưa hoàn thành (HTTP 422).
+Julia: CHƯA THỰC THI; không có kết quả kiểm thử Julia để báo cáo.
+Không kiểm chứng mọi phiên bản, hệ điều hành hoặc thao tác lưu tệp qua hộp thoại OS.
+
+HTTP Python: static assets, CSP headers, path allowlist, Host/Origin/token checks, bad JSON/content-type, invalid input and unchanged state: passed.
+Student Python: application starts; four homework buttons report not implemented (HTTP 422); basic insert remains functional: passed.
+
+Export data entries: 19
+UI passed: insertion, count, delete all, stack batch, invalid k, wraparound, FIFO peek, bracket trace, JSON log data, mobile overflow (DOM rendering and real API through local bridge). JS errors: []
+
+LOG KIỂM THỬ PYTHON PHẦN MẪU
+test_chen_sau (__main__.TestDanhSach.test_chen_sau) ... ok
+test_dao_giu_nguyen_doi_tuong_nut (__main__.TestDanhSach.test_dao_giu_nguyen_doi_tuong_nut) ... ok
+test_dao_rong_mot_nut (__main__.TestDanhSach.test_dao_rong_mot_nut) ... ok
+test_ngau_nhien_co_seed (__main__.TestDanhSach.test_ngau_nhien_co_seed) ... ok
+test_phat_hien_chu_trinh (__main__.TestDanhSach.test_phat_hien_chu_trinh) ... ok
+test_phat_hien_n_sai (__main__.TestDanhSach.test_phat_hien_n_sai) ... ok
+test_rong (__main__.TestDanhSach.test_rong) ... ok
+test_them_dau_cuoi (__main__.TestDanhSach.test_them_dau_cuoi) ... ok
+test_xoa_chi_mot_gia_tri_trung (__main__.TestDanhSach.test_xoa_chi_mot_gia_tri_trung) ... ok
+test_xoa_dau_cuoi_giua (__main__.TestDanhSach.test_xoa_dau_cuoi_giua) ... ok
+test_day_khong_ghi_de (__main__.TestHangDoi.test_day_khong_ghi_de) ... ok
+test_ngau_nhien_co_seed (__main__.TestHangDoi.test_ngau_nhien_co_seed) ... ok
+test_quay_vong_va_o_cu (__main__.TestHangDoi.test_quay_vong_va_o_cu) ... ok
+test_rong (__main__.TestHangDoi.test_rong) ... ok
+test_suc_chua_mot (__main__.TestHangDoi.test_suc_chua_mot) ... ok
+test_suc_chua_sai (__main__.TestHangDoi.test_suc_chua_sai) ... ok
+test_lifo (__main__.TestNganXep.test_lifo) ... ok
+test_rong (__main__.TestNganXep.test_rong) ... ok
+test_xem_dinh_khong_xoa (__main__.TestNganXep.test_xem_dinh_khong_xoa) ... ok
+test_kiem_tra_gia_tri (__main__.TestNgoacVaDauVao.test_kiem_tra_gia_tri) ... ok
+test_ngoac_dung (__main__.TestNgoacVaDauVao.test_ngoac_dung) ... ok
+test_ngoac_sai (__main__.TestNgoacVaDauVao.test_ngoac_sai) ... ok
+test_service_cau_lenh (__main__.TestNgoacVaDauVao.test_service_cau_lenh) ... ok
+test_service_rollback_input (__main__.TestNgoacVaDauVao.test_service_rollback_input) ... ok
+test_vi_tri_unicode (__main__.TestNgoacVaDauVao.test_vi_tri_unicode) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.022s
+
+OK
